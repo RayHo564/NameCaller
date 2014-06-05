@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Namecaller2", "Namecaller2\Namecaller2.cproj", "{DF862F98-6FD0-4DF2-9A22-0BC01F2FA1DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF862F98-6FD0-4DF2-9A22-0BC01F2FA1DB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DF862F98-6FD0-4DF2-9A22-0BC01F2FA1DB}.Debug|AVR.Build.0 = Debug|AVR
+		{DF862F98-6FD0-4DF2-9A22-0BC01F2FA1DB}.Release|AVR.ActiveCfg = Release|AVR
+		{DF862F98-6FD0-4DF2-9A22-0BC01F2FA1DB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
