@@ -1,3 +1,12 @@
+/* 
+* Raymond Ho rho002@ucr.edu
+* Section 021
+* Lab #10
+*  
+* I acknowledge all content contained herein, excluding template or example code, is my own original work 
+*
+*/ 
+
 #include <avr/io.h>
 #include "timer.h"
 #include "scheduler.h"
