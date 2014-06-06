@@ -1,3 +1,13 @@
+/* 
+* Raymond Ho rho002@ucr.edu
+* Section 021
+* Lab #10
+*  
+* I acknowledge all content contained herein, excluding template or example code, is my own original work 
+*
+*/ 
+
+
 #include <avr/io.h>
 #include "timer.h"
 #include "scheduler.h"
@@ -16,7 +26,7 @@ void transmit_data(unsigned char row, unsigned char column) {
 		// set SRCLK = 1. Rising edge shifts next bit of data into the shift register
 		PORTA |= 0x02;
 	}
-	// set RCLK = 1. Rising edge copies data from “Shift” register to “Storage” register
+	// set RCLK = 1. Rising edge copies data from ï¿½Shiftï¿½ register to ï¿½Storageï¿½ register
 	PORTA |= 0x04;
 	// clears all lines in preparation of a new transmission
 	PORTA = 0x00;
